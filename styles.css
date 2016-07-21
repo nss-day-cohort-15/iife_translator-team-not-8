@@ -1,0 +1,41 @@
+h1,
+h2 {
+  text-align: center;
+  font-family: 'Raleway',sans-serif;
+}
+
+body {
+  background-color:lightblue;
+}
+
+form {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+textarea{
+  width:80%;
+  height: 200px;
+  font-family: 'Playfair Display', serif;
+
+}
+
+#secondBox {
+  float:right;
+  border:1px solid black;
+  width:48%;
+  height: 365px;
+}
+
+.floatLeft {
+  float:left;
+  border: 1px solid black;
+  margin:;
+  padding: 2em;
+  width: 45%;
+}
+
+.image {
+  margin-bottom: 2em;
+  text-align:center;
+}
