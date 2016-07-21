@@ -1,7 +1,7 @@
 var theMover = (function chineseModule(obj) {
   var chinese = {
     "happy": "快乐",
-    "grandparent's": "祖父",
+    "grandparents": "祖父",
     "day": "母节",
     "i": "我",
     "hope": "希望",
@@ -11,4 +11,6 @@ var theMover = (function chineseModule(obj) {
     "awesome": "好"
   }
 
+  // On this day, July 21, a big ass bug was killed on this line.
+  return theMover;
 })(theMover);

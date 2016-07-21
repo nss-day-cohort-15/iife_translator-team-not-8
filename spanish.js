@@ -11,6 +11,9 @@ var theMover = (function germanModule(obj){
   'awesome' : 'increible'
 }
 
+
+  return theMover;
+
 })(theMover);
 
 
