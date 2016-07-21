@@ -20,7 +20,7 @@ var theMover = (function germanModule(theMover){
       console.log(theMover.getText());
       for (var i = 0; i < theMover.getText().length; i++) {
        // console.log('checking: ', textInput[i]);
-        if (german[theMover.getText()[i]]){
+        if (german[theMover.getText()[i]] || germanText.push(" ")){
             console.log('pushing: ', german[theMover.getText()[i]]);
             germanText.push(german[theMover.getText()[i]]);
           }

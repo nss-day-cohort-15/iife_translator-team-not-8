@@ -5,6 +5,11 @@ var theMover = (function mainModule() {
 
   document.getElementById('button').addEventListener('click', start);
 
+  document.getElementById('wookMode').addEventListener('click', function doWookThings(e) {
+    theMover.setTranslatedText(`huurh raaaaaahhgh uughguughhhghghghhhgh uugggh huurh uuh wrrhw aarrragghuuhw huuguughghg wrrhwrwwhw
+      <img src='http://static.fjcdn.com/pictures/Wookie+goldberg+wookie+goldberg_8097af_3162787.jpg'>`);
+  });
+
   function start() {
     var radios = document.getElementsByName('selectedLanguage');
     text = document.getElementById('originalText').value.split(' ');
