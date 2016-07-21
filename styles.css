@@ -21,21 +21,37 @@ textarea{
 }
 
 #secondBox {
-  float:right;
+
   border:1px solid black;
-  width:48%;
-  height: 365px;
+
 }
 
 .floatLeft {
-  float:left;
+
   border: 1px solid black;
   margin:;
   padding: 2em;
-  width: 45%;
+
 }
 
 .image {
   margin-bottom: 2em;
   text-align:center;
+}
+
+
+@media (min-width: 700px) {
+
+.floatLeft {
+  float:left;
+  width: 45%;
+}
+
+#secondBox {
+  float: right;
+  width: 48%;
+  height: 365px;
+}
+
+
 }
