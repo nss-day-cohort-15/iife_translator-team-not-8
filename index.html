@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Translator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+</head>
+<body>
+  <h1>Happy Grandparent's Day!!!!</h1>
+  <div class="image">
+    <img src="http://cdn.images.express.co.uk/img/dynamic/1/590x/secondary/Old-person-laughing-434760.jpg" alt="oldPerson" class="oldPerson">
+  </div>
+  <form class="form floatLeft">
+  <h2>Lets Translate</h2>
+    <label hidden for="originalText"></label>
+    <textarea placeholder="What would you like translated?" id="originalText"></textarea>
+    <br>
+
+    <label for='chinese'>Chinese</label>
+    <input required type="radio" name="selectedLanguage" value="chinese">
+
+    <label for='german'>German</label>
+    <input type="radio" name="selectedLanguage" value="german">
+
+    <label for='spanish'>Spanish</label>
+    <input type="radio" name="selectedLanguage" value="spanish">
+    <button type="button" id="button">Let's Translate</button>
+    <button id="wookMode">Wook Mode</button>
+  </form>
+  <div id="secondBox">
+  <h2>Translated stuff</h2>
+  <div id="newText">
+  </div>
+  </div>
+  <script type="text/javascript" src="german.js"></script>
+</body>
+</html>
