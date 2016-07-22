@@ -1,7 +1,7 @@
 var theMover = (function spanishModule(theMover){
   var spanish = {
   'happy':'contento',
-  "grandparent's" : 'abuelos',
+  "grandparents" : 'abuelos',
   'day' : 'dia',
   'hope' : 'esperanza',
   'assisted' :'asistida',
